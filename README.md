@@ -10,5 +10,6 @@ Output power: 700 W
 Switching frequency: 150 kHz
 
 The schematic for the phase shifted full bridge converter in LTspice is shown below:
-![alt text](img/1A.png)
+![Image Description](1A.png)
+
 
