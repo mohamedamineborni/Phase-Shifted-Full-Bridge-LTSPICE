@@ -12,4 +12,14 @@ Switching frequency: 150 kHz
 The schematic for the phase shifted full bridge converter in LTspice is shown below:
 ![Image Description](Img/1A.png)
 
+## Monte Carlo Analysis
+To evaluate the performance of the phase shifted full bridge under component variations, we'll run a Monte Carlo simulation in LTspice. This analysis randomly varies the values of specific components within a specified range and calculates the resulting circuit performance.
 
+## Result
+The simulated output voltage distribution might reveal that the converter is susceptible to large voltage deviations due to component variations. This information can then be used to determine appropriate voltage regulation strategies or guide the selection of more tightly-specified components.
+
+
+![Image Description](Img/2A.png)
+![Image Description](Img/3A.png)
+
+Similarly, the efficiency distribution can help assess the potential impact of component variations on the overall system performance and guide the design of the thermal management system.
