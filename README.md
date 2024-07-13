@@ -5,8 +5,11 @@ The phase shifted full bridge is a popular topology for high-power DC-DC convers
 he phase shifted full bridge converter consists of four power switches arranged in a full bridge configuration. The switches are driven with a phase-shifted PWM scheme to achieve soft-switching. For our simulation, we'll use the following circuit parameters:
 
 Input voltage: 400 V 
-Output voltage: 48 V
+
+Output voltage: 12 V
+
 Output power: 700 W
+
 Switching frequency: 150 kHz
 
 The schematic for the phase shifted full bridge converter in LTspice is shown below:
